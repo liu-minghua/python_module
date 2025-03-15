@@ -2,5 +2,5 @@
 def reverse(str):
     result = ''
     for i in range(len(str)-1, -1, -1):
-	result += str[i]
+        result += str[i]
     return result
