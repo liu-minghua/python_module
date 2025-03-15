@@ -5,7 +5,8 @@ from src.example.string import reverse
 
 class TestStringFunctions(unittest.TestCase):
     def test_reverse(self):
-        self.assertEqual(reverse('abcd', 'dcba')        
+        print("test reverse...")
+        self.assertEqual(reverse('abcd'), 'dcba')        
 
 if __name__ == '__main__':
     unittest.main()
